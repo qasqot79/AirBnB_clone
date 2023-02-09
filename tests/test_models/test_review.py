@@ -175,7 +175,7 @@ class TestReview_to_dict(unittest.TestCase):
         self.assertEqual(str, type(rv_dict["updated_at"]))
 
     def test_to_dict_output(self):
-        dt = datetime.today()f
+        dt = datetime.today()
         rv = Review()
         rv.id = "123456"
         rv.created_at = rv.updated_at = dt
